@@ -1,27 +1,15 @@
 {
-    "no_of_files": 7,
+    "no_of_files": 0,
     "max_file_size": {
-        "size": 3841515,
-        "path": "/home/bulo98/Pictures/unsplash.jpg"
+        "size": 0,
+        "path": ""
     },
-    "file_size_sum": 7683393,
-    "avg_file_size": 1097627.5714285714,
-    "extensions": [
-        "['.txt']",
-        "['.json']",
-        "['.jpg']"
-    ],
+    "file_size_sum": 0,
+    "avg_file_size": 0,
+    "extensions": [],
     "freq_extension": {
-        "extension": "['.jpg']",
-        "count": 2
+        "extension": "",
+        "count": 0
     },
-    "latest_file_paths": [
-        "/home/bulo98/test.txt",
-        "/home/bulo98/db.json",
-        "/home/bulo98/test.txt",
-        "/home/bulo98/test.txt",
-        "/home/bulo98/Pictures/unsplash.jpg",
-        "/home/bulo98/test.txt",
-        "/home/bulo98/Pictures/unsplash.jpg"
-    ]
+    "latest_file_paths": []
 }
