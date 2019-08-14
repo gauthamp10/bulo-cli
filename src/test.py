@@ -15,9 +15,11 @@ def get_file_info(__file__):
     return(file_name,file_size,file_extension)
 
 def get_all_files(path):
+    file_list=list()    
     for root, dirs, files in os.walk(path):
         for file in files:
-            print( os.path.join(root, file))
+            file_list.append(os.path.join(root, file))
+    return file_list
 
 def get_filesNdir(path):
         folders = []
@@ -42,11 +44,14 @@ def get_dir_size(path):
         return(str(total_size))        
 
         
-'''get_all_files('/home/bulo98/Desktop/')        
+
+'''       
 get_filesNdir('/home/bulo98/')
 get_file_info('/home/bulo98/intro/wallpaper.jpg')
 get_dir_size("/home/bulo98/Music")'''
 
-file = input("Enter the full file path:")
-name,size,extension=get_file_info(file)
-do_ops(name,int(size),extension)
+file_path = input("Enter the path to traverse:")
+file_list=get_all_files(file_path) 
+for item in file_list:
+        name,size,extension=get_file_info(item)
+        do_ops(name,int(size),extension)
