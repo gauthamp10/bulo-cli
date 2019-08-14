@@ -1,50 +1,15 @@
 {
-    "no_of_files": 71,
+    "no_of_files": 0,
     "max_file_size": {
-        "size": 2097152000,
-        "path": "/home/bulo98/Downloads/ubuntu-19.04-desktop-amd64.iso"
+        "size": 0,
+        "path": ""
     },
-    "file_size_sum": 18057359948,
-    "avg_file_size": 254329013.35211268,
-    "extensions": [
-        "['.2019', '.1080p', '.HDRip', '.x265', '.HEVCBay', '.com', '.mkv']",
-        "['.json']",
-        "['.04-desktop-amd64', '.iso']",
-        "['.jpeg']",
-        "['.png']",
-        "['.1991', '.2019', '.DVDRip', '.720p', '.x264', '.mkv']",
-        "['.Endgame', '.2019', '.720p', '.BrRip', '.2CH', '.sample', '.mkv']",
-        "['.to', '.Joy', '.2019', '.720p', '.WEBRip', '.800MB', '.x264-GalaxyRG', '.mkv']",
-        "['.03', '.173266', '.bd1358fed9d-x86_64-linux', '.iso']",
-        "['.Endgame', '.2019', '.720p', '.10bit', '.BluRay', '.6CH', '.x265', '.HEVC', '.mkv']",
-        "['.Founder', '.2016', '.720p', '.BluRay', '.@intermedia', '.mp4']",
-        "['.a', '.Friend', '.For', '.The', '.End', '.of', '.The', '.World', '.2012', '.720p', '.BluRay', '.mp4']",
-        "['.mkv']",
-        "['.md']",
-        "['.iso']",
-        "['.zip']",
-        "['.6', '.0', '.562_x64', '.iso']",
-        "['.py']",
-        "['.1-64-bit', '.deb']",
-        "['.Petes', '.Dragon', '.2016', '.720p', '.BDRip', '.TAM', '.TEL', '.HIN', '.ENG', '.mkv']",
-        "['.04', '.3-desktop-amd64', '.iso']",
-        "['.2019', '.Nakal', '.WEB-DL', '.en', '.srt']",
-        "['.Dogs', '.Journey', '.2019', '.720p', '.Web', '.@intermedia', '.mp4']"
-    ],
+    "file_size_sum": 0,
+    "avg_file_size": 0,
+    "extensions": [],
     "freq_extension": {
-        "extension": "['.2019', '.1080p', '.HDRip', '.x265', '.HEVCBay', '.com', '.mkv']",
-        "count": 1
+        "extension": "",
+        "count": 0
     },
-    "latest_file_paths": [
-        "/home/bulo98/Downloads/komorebi-2.1-64-bit.deb",
-        "/home/bulo98/Downloads/ubuntu-19.04-desktop-amd64.iso",
-        "/home/bulo98/Downloads/PYTHON-REST-API-Without-Framework--master.zip",
-        "/home/bulo98/Downloads/ubuntu-18.04.3-desktop-amd64.iso",
-        "/home/bulo98/Downloads/Peppermint-10-20190514-amd64.iso",
-        "/home/bulo98/Downloads/PhoenixOSInstaller_v3.6.0.562_x64.iso",
-        "/home/bulo98/Downloads/fd5fc05c-b4a9-4af4-b053-aacb081c763d.jpeg",
-        "/home/bulo98/Downloads/nixos-graphical-19.03.173266.bd1358fed9d-x86_64-linux.iso",
-        "/home/bulo98/Downloads/PYTHON-REST-API-Without-Framework--master/Readme.md",
-        "/home/bulo98/Downloads/Telegram Desktop/Avengers.Endgame.2019.720p.BrRip.2CH.sample.mkv"
-    ]
+    "latest_file_paths": []
 }
