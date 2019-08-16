@@ -25,7 +25,6 @@ def do_ops(__newfilepath__,__newfilesize__,__newext__):
     #maximum file size and path
     max_file_size=data['max_file_size']['size']
     max_file_path=str(data['max_file_size']['path'])
-    print(__newfilesize__)
     if(int(max_file_size)<=__newfilesize__):
         max_file_size=int(__newfilesize__)
         max_file_path=__newfilepath__
@@ -39,7 +38,6 @@ def do_ops(__newfilepath__,__newfilesize__,__newext__):
     file_extensions=list(data['extensions'])
     file_extensions.append(__newext__)
     extension_set=list(set(file_extensions))
-    print(file_extensions)
     #most frequent extension occurance
     ext_count=0
     for i in file_extensions:
@@ -79,6 +77,7 @@ def do_ops(__newfilepath__,__newfilesize__,__newext__):
     data['file_size_sum']=0'''
     
     write_json(data)
+    
 
 
 

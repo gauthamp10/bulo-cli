@@ -2,8 +2,10 @@
 import os
 import json
 import time
+import click
 from pathlib import Path
 from file_stats import *
+from http.server import HTTPServer, BaseHTTPRequestHandler
 
 def get_file_info(__file__):
     file_name=__file__
@@ -44,14 +46,28 @@ def get_dir_size(path):
         return(str(total_size))        
 
         
+@click.command()
+#@click.option('--verbose', is_flag=True, help="Will print verbose messages.")
+@click.option('--path', default='', help='To specify the path to traverse')
+@click.option('--serve', default='', help='To serve it over a specified port')
+def cli(path,serve):
+    if path:
+        file_list=get_all_files(path) 
+        for item in file_list:
+                name,size,extension=get_file_info(item)
+                do_ops(name,int(size),extension)
+        print(read_json())
+    elif path and server:
+        click.echo("Hai Cooper")
+    else:
+        click.echo("You're awesome")
 
-'''       
-get_filesNdir('/home/bulo98/')
-get_file_info('/home/bulo98/intro/wallpaper.jpg')
-get_dir_size("/home/bulo98/Music")'''
 
-file_path = input("Enter the path to traverse:")
-file_list=get_all_files(file_path) 
-for item in file_list:
-        name,size,extension=get_file_info(item)
-        do_ops(name,int(size),extension)
+
+
+cli()
+
+
+
+
+
