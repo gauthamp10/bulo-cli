@@ -5,6 +5,10 @@ A CLI client to traverse the file system and send the information via HTTP reque
 
 Under construction. Use with caution.
 
+### What is not there at present?
+
+HTTP get or post request in CLI.
+
 ### Dependencies
 
 Install the following three python modules before executing wikipedia_info_scraper
@@ -17,7 +21,9 @@ pip install click
 Usage
 ------
 ```
-python main.py --path /path/to/dir
+python main.py --path /path/to/dir/
+python main.py --path --serve /path/to/dir/
+python main.py --help
 ```
 
 ## Example
